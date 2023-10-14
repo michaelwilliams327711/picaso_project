@@ -1,0 +1,33 @@
+button {
+  background-image: url("https://www.svgrepo.com/show/506800/burger-menu.svg");
+}
+img {
+  height: 30px;
+  width: 30px;
+}
+img:hover {
+  cursor: pointer;
+}
+.categories {
+  border-style: ridge;
+  background-color: rgb(255, 255, 255);
+}
+.header-style {
+  font-family: "Brush Script MT", cursive;
+  color: blue;
+  text-align: center;
+  font-size: 40px;
+}
+.gallary {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  gap: 12px;
+}
+.grid-child {
+}
+.grid-child img {
+  width: 100%;
+  height: auto;
+}
