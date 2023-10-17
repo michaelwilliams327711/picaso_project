@@ -26,8 +26,31 @@ img:hover {
   gap: 12px;
 }
 .grid-child {
+  position: relative;
 }
 .grid-child img {
   width: 100%;
   height: auto;
+}
+.grid-child h2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+.grid-child h3 {
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  text-align: center;
+}
+.grid-child {
 }
